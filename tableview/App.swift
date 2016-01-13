@@ -14,9 +14,13 @@ class App {
     var photo: UIImage?
     var details: String
     
-    init(name: String, photo: UIImage?, details: String) {
+    init?(name: String, photo: UIImage?, details: String) {
         self.name = name
         self.photo = photo
         self.details = details
+        
+        if name.isEmpty {
+            return nil
+        }
     }
 }

@@ -33,4 +33,12 @@ class tableviewTests: XCTestCase {
         }
     }
     
+    func testAppInit() {
+        let testApp = App(name: "CaTalk", photo: nil, details: "test")
+        XCTAssertNotNil(testApp)
+        
+        let noNameApp = App(name: "", photo: nil, details: "test")
+        XCTAssertNil(noNameApp)                
+    }
+    
 }
