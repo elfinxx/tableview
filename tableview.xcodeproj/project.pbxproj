@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		328ADE681C44EEE400268C75 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328ADE671C44EEE400268C75 /* App.swift */; };
 		328ADE691C44EEE400268C75 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328ADE671C44EEE400268C75 /* App.swift */; };
+		CC0927531C466A7E00BCFF8C /* AppTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0927521C466A7E00BCFF8C /* AppTableViewController.swift */; };
 		CCCC8CB61C3D2FE700E05FCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCC8CB51C3D2FE700E05FCD /* AppDelegate.swift */; };
 		CCCC8CB81C3D2FE700E05FCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCC8CB71C3D2FE700E05FCD /* ViewController.swift */; };
 		CCCC8CBB1C3D2FE700E05FCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCC8CB91C3D2FE700E05FCD /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		328ADE671C44EEE400268C75 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		CC0927521C466A7E00BCFF8C /* AppTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTableViewController.swift; sourceTree = "<group>"; };
 		CCCC8CB21C3D2FE700E05FCD /* tableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCCC8CB51C3D2FE700E05FCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCCC8CB71C3D2FE700E05FCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				328ADE671C44EEE400268C75 /* App.swift */,
+				CC0927521C466A7E00BCFF8C /* AppTableViewController.swift */,
 				CCCC8CB51C3D2FE700E05FCD /* AppDelegate.swift */,
 				CCCC8CB71C3D2FE700E05FCD /* ViewController.swift */,
 				CCCC8CB91C3D2FE700E05FCD /* Main.storyboard */,
@@ -269,6 +272,7 @@
 				CCCC8CB81C3D2FE700E05FCD /* ViewController.swift in Sources */,
 				CCCC8CB61C3D2FE700E05FCD /* AppDelegate.swift in Sources */,
 				CCCC8CE81C3D4FB400E05FCD /* AppViewController.swift in Sources */,
+				CC0927531C466A7E00BCFF8C /* AppTableViewController.swift in Sources */,
 				328ADE681C44EEE400268C75 /* App.swift in Sources */,
 				CCCC8CE41C3D39F200E05FCD /* AppTableViewCell.swift in Sources */,
 			);
