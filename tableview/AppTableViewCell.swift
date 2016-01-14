@@ -13,8 +13,7 @@ class AppTableViewCell: UITableViewCell {
     // MARK: Properties
     @IBOutlet weak var appName: UILabel!
     @IBOutlet weak var appImage: UIImageView!
-    @IBOutlet weak var appDetails: UIView!
-
+    @IBOutlet weak var appDetails: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
