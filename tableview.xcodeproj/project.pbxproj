@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		322EBD251C48A0D20099748E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 322EBD241C48A0D20099748E /* .gitignore */; };
 		328ADE681C44EEE400268C75 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328ADE671C44EEE400268C75 /* App.swift */; };
 		328ADE691C44EEE400268C75 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328ADE671C44EEE400268C75 /* App.swift */; };
 		CC0927531C466A7E00BCFF8C /* AppTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0927521C466A7E00BCFF8C /* AppTableViewController.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		322EBD241C48A0D20099748E /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		328ADE671C44EEE400268C75 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		CC0927521C466A7E00BCFF8C /* AppTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTableViewController.swift; sourceTree = "<group>"; };
 		CCCC8CB21C3D2FE700E05FCD /* tableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableview.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +88,7 @@
 		CCCC8CA91C3D2FE700E05FCD = {
 			isa = PBXGroup;
 			children = (
+				322EBD241C48A0D20099748E /* .gitignore */,
 				CCCC8CB41C3D2FE700E05FCD /* tableview */,
 				CCCC8CC91C3D2FE700E05FCD /* tableviewTests */,
 				CCCC8CD41C3D2FE700E05FCD /* tableviewUITests */,
@@ -242,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				322EBD251C48A0D20099748E /* .gitignore in Resources */,
 				CCCC8CC01C3D2FE700E05FCD /* LaunchScreen.storyboard in Resources */,
 				CCCC8CBD1C3D2FE700E05FCD /* Assets.xcassets in Resources */,
 				CCCC8CBB1C3D2FE700E05FCD /* Main.storyboard in Resources */,
